@@ -3,18 +3,41 @@
   "name": "co.podseeker/podseeker",
   "title": "Podseeker",
   "description": "Search active podcasts, get host and producer contacts, and get podcast recommendations for clients.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://www.podseeker.co/podcast-api",
+  "repository": {
+    "url": "https://github.com/podseeker/podseeker-mcp",
+    "source": "github",
+    "id": "1460344302"
+  },
   "icons": [
-    { "src": "https://app.podseeker.co/podseeker-icon-512.png", "mimeType": "image/png", "sizes": ["512x512"] },
-    { "src": "https://app.podseeker.co/podseeker-icon.svg", "mimeType": "image/svg+xml", "sizes": ["any"] }
+    {
+      "src": "https://app.podseeker.co/podseeker-icon-512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://app.podseeker.co/podseeker-icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
   ],
   "remotes": [
-    { "type": "streamable-http", "url": "https://app.podseeker.co/mcp" }
+    {
+      "type": "streamable-http",
+      "url": "https://app.podseeker.co/mcp"
+    }
   ],
   "_meta": {
     "io.modelcontextprotocol.registry/publisher-provided": {
-      "authentication": { "required": true, "type": "oauth2" },
+      "authentication": {
+        "required": true,
+        "type": "oauth2"
+      },
       "documentationUrl": "https://app.podseeker.co/api/docs#ai-assistants",
       "privacyPolicyUrl": "https://www.podseeker.co/privacy",
       "support": "support@podseeker.co"
