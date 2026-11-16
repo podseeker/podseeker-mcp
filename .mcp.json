@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "podseeker": {
+      "type": "http",
+      "url": "https://app.podseeker.co/mcp",
+      "headers": { "Authorization": "Bearer ${PODSEEKER_API_KEY}" }
+    }
+  }
+}
